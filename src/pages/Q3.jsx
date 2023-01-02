@@ -1,8 +1,8 @@
-import { Box, Button, Radio, RadioGroup, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Radio, RadioGroup, Stack, Text, CircularProgress, CircularProgressLabel } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Q3 = ({ setAnswers }) => {
+const Q3 = ({ setAnswers, jawaban3 }) => {
   const [value3, setValue3] = useState("Boring");
   const onAnswer = () => {
     setAnswers((prevAnswers) => {
@@ -12,6 +12,7 @@ const Q3 = ({ setAnswers }) => {
     });
   };
 
+  jawaban3(value3);
   return (
     <>
       <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
@@ -35,6 +36,9 @@ const Q3 = ({ setAnswers }) => {
             <Button bgColor={"green"} borderColor="white" onClick={onAnswer}>
               Next
             </Button>
+            <CircularProgress value={40} color="green.400">
+              <CircularProgressLabel>40%</CircularProgressLabel>
+            </CircularProgress>
           </Link>
         </Box>
       </Box>
