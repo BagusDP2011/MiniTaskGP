@@ -3,7 +3,7 @@ This is a interview project test by GRIP Principle \
 Interview Person: Bagus Dwi Putra \
 LinkedIn:<a href="https://www.linkedin.com/in/bagus-dwi-putra/">https://www.linkedin.com/in/bagus-dwi-putra/</a>
 
-============================================================================================
+===========================================================================
 
 # Getting Started with Create React App
 
