@@ -14,7 +14,7 @@ const Q5 = ({ setAnswers, jawaban5 }) => {
   jawaban5(value5);
   return (
     <>
-      <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+      <Box justifyContent="center">
         <Text>Question 4:</Text>
         <Text fontWeight="bold" fontSize="2xl">
           With people, I am more often

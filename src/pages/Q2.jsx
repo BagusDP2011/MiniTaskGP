@@ -14,7 +14,7 @@ const Q2 = ({ setAnswers, jawaban2 }) => {
   jawaban2(value2);
   return (
     <>
-      <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+      <Box justifyContent="center">
         <Text>Question 2:</Text>
         <Text fontWeight="bold" fontSize="2xl">
           I appreciate a wide variety of music.

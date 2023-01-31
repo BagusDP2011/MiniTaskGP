@@ -24,7 +24,7 @@ const End = ({
 
   return (
     <>
-      <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+      <Box justifyContent="center">
         <Text>
           Your Answers Sheet{" "}
           <CircularProgress value={100} color="green.400">

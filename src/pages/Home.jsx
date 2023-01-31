@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Q1 = () => {
 
   return (
-    <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+    <Box justifyContent="center">
       <Box>
         <Text>Hello Everyone!</Text>
         <Text>This is a interview project test by GRIP Principle</Text>

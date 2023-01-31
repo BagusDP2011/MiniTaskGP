@@ -14,7 +14,7 @@ const Q4 = ({ setAnswers, jawaban4 }) => {
   jawaban4(value4);
   return (
     <>
-      <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+      <Box justifyContent="center">
         <Text>Question 4:</Text>
         <Text fontWeight="bold" fontSize="2xl">
           I prefer speakers that communicate

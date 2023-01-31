@@ -10,7 +10,7 @@ import { useState } from "react";
 import Home from "./pages/Home";
 
 function App() {
-  const [answers, setAnswers] = useState([]);
+  // const [answers, setAnswers] = useState([]);
   const [jawaban1, setJawaban1] = useState([]);
   const [jawaban2, setJawaban2] = useState([]);
   const [jawaban3, setJawaban3] = useState([]);
@@ -20,7 +20,7 @@ function App() {
   return (
     <Box>
       {/* Routes Endpoint */}
-      <Container justifyContent="center">
+      <Container justifyContent="center" bgColor={"lightblue"} marginTop="200px" padding="20px">
       <Routes>
         <Route
           path="/"

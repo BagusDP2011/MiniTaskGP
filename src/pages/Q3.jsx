@@ -15,7 +15,7 @@ const Q3 = ({ setAnswers, jawaban3 }) => {
   jawaban3(value3);
   return (
     <>
-      <Box justifyContent="center" marginLeft={"50px"} marginTop="50px">
+      <Box justifyContent="center">
         <Text>Question 3:</Text>
         <Text fontWeight="bold" fontSize="2xl">
           A quiet weekend at home is
